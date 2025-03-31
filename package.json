@@ -1,0 +1,52 @@
+{
+  "name": "gestione-dipendenti",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "migrate": "ts-node --project tsconfig.json -r tsconfig-paths/register --transpile-only src/scripts/migrate.ts"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^5.1.1",
+    "chart.js": "^4.4.8",
+    "date-fns": "^4.1.0",
+    "moment": "^2.30.1",
+    "mysql2": "^3.13.0",
+    "next": "15.2.1",
+    "next-auth": "^4.24.11",
+    "nodemailer": "^6.10.0",
+    "pdfkit": "^0.16.0",
+    "react": "^19.0.0",
+    "react-big-calendar": "^1.18.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^4.11.0",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.17",
+    "@types/pdfkit": "^0.13.9",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/ws": "^8.18.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5"
+  }
+}
